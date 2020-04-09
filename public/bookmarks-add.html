@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla seed</title>
+  <link rel="shortcut icon" href="assets/img/favicon3.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-app">
+      <a href="index.html"><img src="assets/img/logo_bg_blanco.png" width="30px" height="30px"></a>
+      <span class="header-text">Front Squad Template</span>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="app">
+    <article class="bookmark-add">
+      <h3>Añadir bookmark</h3>
+
+      <label>
+        Nombre
+        <input type="text" name="bookmark-name" id="bookmark-name">
+      </label>
+
+      <label>
+        Url
+        <input type="text" name="bookmark-url" id="bookmark-url">
+      </label>
+
+      <label>
+        Descripción
+        <textarea name="bookmark-description" id="bookmark-description"></textarea>
+      </label>
+
+      <div class="footer">
+        <span class="start-buttons">
+          <button id="js-bookmark-back" onclick="window.location.href='bookmarks.html'">← Volver</button>
+        </span>
+        <span class="end-buttons">
+          <button id="js-bookmark-save">Guardar</button>
+          <button id="js-bookmark-delete" class="button button-clear" data-id="5e6f56f1d69a42007a9c1ee4">Borrar</button>
+        </span>
+      </div>
+    </article>
+
+  </main>
+</body>
+
+</html>
